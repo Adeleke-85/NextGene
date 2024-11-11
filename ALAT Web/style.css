@@ -1,0 +1,163 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    
+}
+.right{
+    width: 50%;
+    background: linear-gradient(145deg, #884136, #580632);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-text{
+    margin-top: 250px;
+    
+}
+.text-img img{
+    margin-left: 20px;
+
+}
+.right-text h3{
+    color: white;
+}
+.right-text p{
+    color: white;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .go{
+        color: #72053f;
+        margin-top: 30px;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 18px;
+
+    }
+    .licenced p{
+        text-align: center;
+        margin-right: 80px;
+        margin-top: 30px;
+        font-size: 18px;
+        color: rgb(30, 20, 20);
+
+    }
+
+    
+    h2{
+        background-color: white;
+        margin-right: 200px;
+        margin-top: 10px;
+    }
+    
+    .line{
+        display: block;
+        background-color: #72053f;
+        padding: 2px;
+        width: 40px;
+        margin-top: 10px;
+    }
+    
+    label{
+       display: block;
+       margin: 15px 0;
+       font-size: 16px;
+       opacity: 0.5;
+    }
+    .pwd{
+        margin-left: 250px;
+        color:  #72053f ;
+        
+    }
+    input{
+        border: 1px solid rgb(230, 240, 230);
+        width: 400px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .login-btn{
+        background-color: #9b135c;
+        border: none;
+        width: 420px;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        font-size: 17px;
+        color: white;
+    }
+    .new{
+        padding-top: 10px;
+        font-size: 18px;
+        opacity: 0.6;
+    }
+    .new span{
+        color:  #470428;
+        margin-right: 10px;
+        padding-right: 5px;
+        
+        
+    }
+    .flex{
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        padding: 10px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+       
+
+    }
+    .cookies{
+        position: absolute;
+        width: 500px;
+        bottom: 0;
+        background-color: whitesmoke;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 10px;
+        visibility: hidden;
+        }
+        .cookies h3{
+            margin-bottom: 0
+        }
+        .manage{
+            color: #111100;
+            margin-top: 2px;
+        }
+    
+    .flex:hover{
+        opacity: 0.4;
+    }
+    .flex:hover~.cookies{
+        visibility: visible;
+
+    }
+    .btn button{
+        padding: 20px;
+        width: 160px;
+        border: 2px solid ghostwhite;
+        color: #470428;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    /* .btn button:nth-child(1) {
+        color: white;
+    } */
+    
+   
+        
+    
+
